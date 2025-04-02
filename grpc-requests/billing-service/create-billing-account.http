@@ -1,0 +1,8 @@
+#Create reqquest
+GRPC localhost:9001/BillingService/CreateBillingAccount
+
+{
+  "patientId": "123",
+  "name": "John Doe",
+  "email": "jong.doe@mail.com"
+}
